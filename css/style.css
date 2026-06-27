@@ -236,18 +236,20 @@ html, body {
 .action-btn:active { transform: translateY(3px); box-shadow: 0 1px 0 #ffd0e0; }
 
 /* ---------- エンディング ---------- */
-#screen-ending { align-items: center; justify-content: center; text-align: center; }
+/* 内容が画面より高いときはスクロール（上の見切れ・ボタンの画面外を防ぐ） */
+#screen-ending { align-items: center; justify-content: flex-start; text-align: center; overflow-y: auto; -webkit-overflow-scrolling: touch; }
 .ending-card {
   background: rgba(255, 255, 255, 0.78);
   border-radius: 28px;
-  padding: 26px 22px;
+  padding: 22px 22px;
   box-shadow: 0 12px 30px var(--shadow);
   width: 100%;
+  margin: auto 0;       /* 収まるときは中央、はみ出すときは上から表示＋スクロール */
   backdrop-filter: blur(4px);
 }
 .ending-photo {
-  width: 160px; height: 160px;
-  margin: 0 auto 18px;
+  width: 132px; height: 132px;
+  margin: 0 auto 14px;
   border-radius: 50%;
   overflow: hidden;
   border: 6px solid #fff;
@@ -270,6 +272,8 @@ html, body {
 .gallery-frame {
   width: 100%;
   aspect-ratio: 4 / 3;
+  max-height: 42vh;   /* 大きくなりすぎて画面からはみ出さないよう高さ制限 */
+  margin: 0 auto;
   border-radius: 16px;
   overflow: hidden;
   border: 5px solid #fff;
