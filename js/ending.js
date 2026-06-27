@@ -57,7 +57,7 @@ export function startEnding() {
   page = 0;
   galleryIndex = 0;
   galleryItems = collectGalleryItems();
-  // Fred へメッセージを語る Lucia は動画で表示
+  // Fred へメッセージを語る Lucia の表示（動画 or 静止画）
   if (CONFIG.ending.video) {
     els.img.hidden = true;
     els.video.hidden = false;
@@ -67,7 +67,10 @@ export function startEnding() {
     els.video.currentTime = 0;
     els.video.play().catch(() => {});
   } else {
-    els.img.src = CONFIG.photos[CONFIG.ending.expression] || CONFIG.photos.love;
+    // 静止画で表示（動画は隠す）
+    els.video.hidden = true;
+    els.img.hidden = false;
+    els.img.src = CONFIG.ending.photo || CONFIG.photos[CONFIG.ending.expression] || CONFIG.photos.love;
   }
   els.gallery.hidden = true;
   els.next.hidden = false;
