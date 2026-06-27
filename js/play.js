@@ -1,10 +1,10 @@
 // =====================================================================
 //  あそぶ処理：ボタン生成・タップ反応・メーター上昇
 // =====================================================================
-import { CONFIG } from "./config.js";
-import { ACTIVITIES } from "./activities.js";
-import { renderMeter } from "./lovemeter.js";
-import { showLine } from "./dialogue.js";
+import { CONFIG } from "./config.js?v=2";
+import { ACTIVITIES } from "./activities.js?v=2";
+import { renderMeter } from "./lovemeter.js?v=2";
+import { showLine } from "./dialogue.js?v=2";
 
 let state = null;
 let onChange = null;

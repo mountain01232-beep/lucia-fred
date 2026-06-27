@@ -2,13 +2,13 @@
 //  Lucia のラブメーター大作戦 — エントリポイント
 //  タイトル → あそぶ → （150%イベント）→ 200%演出 → エンディング
 // =====================================================================
-import { CONFIG } from "./config.js";
-import { loadState, saveState, clearState, defaultState } from "./save.js";
-import { initMeter, renderMeter } from "./lovemeter.js";
-import { initDialogue, playSequence, hideDialogue } from "./dialogue.js";
-import { initPlay, setExpression, reactAnim } from "./play.js";
-import { nextEvent } from "./story.js";
-import { initEnding, startEnding, confetti } from "./ending.js";
+import { CONFIG } from "./config.js?v=2";
+import { loadState, saveState, clearState, defaultState } from "./save.js?v=2";
+import { initMeter, renderMeter } from "./lovemeter.js?v=2";
+import { initDialogue, playSequence, hideDialogue } from "./dialogue.js?v=2";
+import { initPlay, setExpression, reactAnim } from "./play.js?v=2";
+import { nextEvent } from "./story.js?v=2";
+import { initEnding, startEnding, confetti } from "./ending.js?v=2";
 
 // 毎回ページを開いたら最初から（ラブメーター100%スタート）にする
 clearState();
