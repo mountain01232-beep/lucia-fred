@@ -271,8 +271,9 @@ html, body {
 #gallery-heading { font-size: 1.2rem; color: var(--pink-deep); margin: 0 0 12px; }
 .gallery-frame {
   width: 100%;
+  max-width: 440px;   /* PCで大きくなりすぎないよう横幅も制限 */
   aspect-ratio: 4 / 3;
-  max-height: 42vh;   /* 大きくなりすぎて画面からはみ出さないよう高さ制限 */
+  max-height: 38vh;   /* 画面からはみ出さないよう高さも制限 */
   margin: 0 auto;
   border-radius: 16px;
   overflow: hidden;
