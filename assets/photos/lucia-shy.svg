@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgS" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#fff7ef"/>
+      <stop offset="100%" stop-color="#ffe0cf"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgS)"/>
+  <ellipse cx="118" cy="152" rx="44" ry="78" fill="#a9764f" transform="rotate(-14 118 152)"/>
+  <ellipse cx="282" cy="152" rx="44" ry="78" fill="#a9764f" transform="rotate(14 282 152)"/>
+  <ellipse cx="200" cy="210" rx="120" ry="112" fill="#c69465"/>
+  <ellipse cx="200" cy="252" rx="74" ry="62" fill="#f0dcc3"/>
+  <!-- looking-aside eyes -->
+  <circle cx="158" cy="196" r="15" fill="#3a2b22"/>
+  <circle cx="242" cy="196" r="15" fill="#3a2b22"/>
+  <circle cx="150" cy="194" r="5" fill="#fff"/>
+  <circle cx="234" cy="194" r="5" fill="#fff"/>
+  <!-- big blush -->
+  <circle cx="128" cy="234" r="20" fill="#ff8fb6" opacity="0.7"/>
+  <circle cx="272" cy="234" r="20" fill="#ff8fb6" opacity="0.7"/>
+  <ellipse cx="200" cy="240" rx="20" ry="14" fill="#3a2b22"/>
+  <path d="M180 268 q20 12 40 0" fill="none" stroke="#7a5c44" stroke-width="6" stroke-linecap="round"/>
+</svg>

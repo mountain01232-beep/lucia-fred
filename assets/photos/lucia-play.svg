@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgP" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#eef9ff"/>
+      <stop offset="100%" stop-color="#c2e6ff"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgP)"/>
+  <!-- perked ears -->
+  <ellipse cx="120" cy="120" rx="40" ry="70" fill="#a9764f" transform="rotate(-8 120 120)"/>
+  <ellipse cx="280" cy="120" rx="40" ry="70" fill="#a9764f" transform="rotate(8 280 120)"/>
+  <ellipse cx="200" cy="212" rx="120" ry="112" fill="#c69465"/>
+  <ellipse cx="200" cy="254" rx="74" ry="62" fill="#f0dcc3"/>
+  <!-- wide excited eyes -->
+  <circle cx="158" cy="198" r="19" fill="#3a2b22"/>
+  <circle cx="242" cy="198" r="19" fill="#3a2b22"/>
+  <circle cx="165" cy="192" r="6" fill="#fff"/>
+  <circle cx="249" cy="192" r="6" fill="#fff"/>
+  <ellipse cx="200" cy="242" rx="20" ry="14" fill="#3a2b22"/>
+  <path d="M200 256 V270 M200 270 q-26 22 -46 2 M200 270 q26 22 46 2" fill="none" stroke="#7a5c44" stroke-width="6" stroke-linecap="round"/>
+  <path d="M186 284 q14 26 28 0 z" fill="#ff7a99"/>
+</svg>

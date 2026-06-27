@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#ffe0ec"/>
+  <g fill="#ff9ec0" opacity="0.5">
+    <path d="M80 70 a14 14 0 0 1 26 0 a14 14 0 0 1 26 0 q0 18 -26 32 q-26 -14 -26 -32 z"/>
+    <path d="M360 60 a11 11 0 0 1 20 0 a11 11 0 0 1 20 0 q0 14 -20 25 q-20 -11 -20 -25 z"/>
+  </g>
+  <ellipse cx="240" cy="240" rx="74" ry="64" fill="#c69465"/>
+  <ellipse cx="240" cy="270" rx="44" ry="36" fill="#f0dcc3"/>
+  <path d="M214 232 q12 -14 24 0" fill="none" stroke="#3a2b22" stroke-width="6" stroke-linecap="round"/>
+  <path d="M242 232 q12 -14 24 0" fill="none" stroke="#3a2b22" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="240" cy="258" rx="11" ry="8" fill="#3a2b22"/>
+  <path d="M230 274 q10 16 20 0 z" fill="#ff7a99"/>
+  <ellipse cx="186" cy="200" rx="22" ry="42" fill="#a9764f" transform="rotate(-22 186 200)"/>
+  <ellipse cx="294" cy="200" rx="22" ry="42" fill="#a9764f" transform="rotate(22 294 200)"/>
+  <text x="240" y="338" font-family="sans-serif" font-size="22" fill="#c2367a" text-anchor="middle">なかよし 💕</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgH" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#fff3f8"/>
+      <stop offset="100%" stop-color="#ffd6e7"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgH)"/>
+  <ellipse cx="118" cy="144" rx="44" ry="78" fill="#a9764f" transform="rotate(-24 118 144)"/>
+  <ellipse cx="282" cy="144" rx="44" ry="78" fill="#a9764f" transform="rotate(24 282 144)"/>
+  <ellipse cx="200" cy="210" rx="120" ry="112" fill="#c69465"/>
+  <ellipse cx="200" cy="252" rx="74" ry="62" fill="#f0dcc3"/>
+  <!-- happy closed eyes -->
+  <path d="M142 194 q16 -18 32 0" fill="none" stroke="#3a2b22" stroke-width="7" stroke-linecap="round"/>
+  <path d="M226 194 q16 -18 32 0" fill="none" stroke="#3a2b22" stroke-width="7" stroke-linecap="round"/>
+  <!-- cheeks -->
+  <circle cx="132" cy="232" r="15" fill="#ff9ec0" opacity="0.6"/>
+  <circle cx="268" cy="232" r="15" fill="#ff9ec0" opacity="0.6"/>
+  <ellipse cx="200" cy="238" rx="20" ry="14" fill="#3a2b22"/>
+  <!-- open happy mouth + tongue -->
+  <path d="M200 252 V266 M200 266 q-26 22 -46 2 M200 266 q26 22 46 2" fill="none" stroke="#7a5c44" stroke-width="6" stroke-linecap="round"/>
+  <path d="M188 280 q12 22 24 0 z" fill="#ff7a99"/>
+</svg>

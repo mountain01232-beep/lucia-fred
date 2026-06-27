@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <rect width="480" height="360" fill="#bfe3c0"/>
+  <rect x="0" y="250" width="480" height="110" fill="#8fd08f"/>
+  <circle cx="400" cy="70" r="46" fill="#ffe27a"/>
+  <ellipse cx="240" cy="250" rx="70" ry="60" fill="#c69465"/>
+  <ellipse cx="240" cy="278" rx="42" ry="34" fill="#f0dcc3"/>
+  <circle cx="222" cy="240" r="8" fill="#3a2b22"/>
+  <circle cx="258" cy="240" r="8" fill="#3a2b22"/>
+  <ellipse cx="240" cy="266" rx="10" ry="7" fill="#3a2b22"/>
+  <ellipse cx="190" cy="210" rx="22" ry="40" fill="#a9764f" transform="rotate(-20 190 210)"/>
+  <ellipse cx="290" cy="210" rx="22" ry="40" fill="#a9764f" transform="rotate(20 290 210)"/>
+  <text x="240" y="340" font-family="sans-serif" font-size="22" fill="#2f6b32" text-anchor="middle">おさんぽ日和 ☀️</text>
+</svg>

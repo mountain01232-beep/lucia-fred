@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgN" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#fff6e9"/>
+      <stop offset="100%" stop-color="#ffe2c2"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgN)"/>
+  <!-- ears -->
+  <ellipse cx="118" cy="150" rx="44" ry="78" fill="#a9764f" transform="rotate(-18 118 150)"/>
+  <ellipse cx="282" cy="150" rx="44" ry="78" fill="#a9764f" transform="rotate(18 282 150)"/>
+  <!-- head -->
+  <ellipse cx="200" cy="210" rx="120" ry="112" fill="#c69465"/>
+  <!-- muzzle -->
+  <ellipse cx="200" cy="252" rx="74" ry="62" fill="#f0dcc3"/>
+  <!-- eyes -->
+  <circle cx="158" cy="196" r="16" fill="#3a2b22"/>
+  <circle cx="242" cy="196" r="16" fill="#3a2b22"/>
+  <circle cx="163" cy="191" r="5" fill="#fff"/>
+  <circle cx="247" cy="191" r="5" fill="#fff"/>
+  <!-- nose -->
+  <ellipse cx="200" cy="240" rx="20" ry="14" fill="#3a2b22"/>
+  <!-- mouth -->
+  <path d="M200 254 V272 M200 272 q-22 18 -42 4 M200 272 q22 18 42 4" fill="none" stroke="#7a5c44" stroke-width="6" stroke-linecap="round"/>
+</svg>

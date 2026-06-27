@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Lucia's Feelings ~ Happy Birthday, Fred ~</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+
+    <!-- ============ タイトル画面 ============ -->
+    <section id="screen-title" class="screen is-active">
+      <div class="title-card">
+        <h1 id="title-heading"></h1>
+        <p id="title-sub"></p>
+        <div class="title-photo">
+          <img id="title-img" alt="Lucia" />
+        </div>
+        <p id="title-intro"></p>
+        <button id="btn-start" class="btn btn-primary"></button>
+        <button id="btn-reset" class="btn btn-ghost" hidden>Start over</button>
+      </div>
+    </section>
+
+    <!-- ============ あそぶ画面 ============ -->
+    <section id="screen-game" class="screen">
+      <header class="meter-bar">
+        <div class="meter-label">
+          <span class="meter-name"></span>'s Like Meter
+          <span id="meter-value" class="meter-value">100%</span>
+        </div>
+        <div class="meter-track">
+          <div id="meter-fill" class="meter-fill"></div>
+          <div id="meter-heart" class="meter-heart">💗</div>
+        </div>
+      </header>
+
+      <main class="stage">
+        <div id="lucia-stage" class="lucia-stage">
+          <img id="lucia-img" class="lucia-img" alt="Lucia" />
+          <video id="lucia-video" class="lucia-img" playsinline loop hidden></video>
+          <div id="fx-layer" class="fx-layer"></div>
+        </div>
+        <div id="dialogue" class="dialogue" hidden>
+          <p id="dialogue-text"></p>
+        </div>
+      </main>
+
+      <footer id="actions" class="actions"></footer>
+    </section>
+
+    <!-- ============ エンディング画面 ============ -->
+    <section id="screen-ending" class="screen">
+      <div class="ending-card">
+        <div class="ending-photo">
+          <video id="ending-video" playsinline loop hidden></video>
+          <img id="ending-img" alt="Lucia" />
+        </div>
+        <p id="ending-text" class="ending-text"></p>
+        <button id="btn-ending-next" class="btn btn-primary">Next ▶</button>
+
+        <div id="gallery" class="gallery" hidden>
+          <h2 id="gallery-heading"></h2>
+          <div class="gallery-frame">
+            <img id="gallery-img" alt="memory" />
+          </div>
+          <div class="gallery-controls">
+            <button id="gallery-prev" class="btn btn-ghost">◀</button>
+            <span id="gallery-counter"></span>
+            <button id="gallery-next" class="btn btn-ghost">▶</button>
+          </div>
+          <button id="btn-replay" class="btn btn-primary"></button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

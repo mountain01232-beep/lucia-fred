@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd1a8"/>
+      <stop offset="100%" stop-color="#ff9ec0"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#sky)"/>
+  <circle cx="240" cy="150" r="60" fill="#ffe9a8" opacity="0.85"/>
+  <g fill="#fff">
+    <path d="M70 60 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z"/>
+    <path d="M410 90 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z"/>
+  </g>
+  <ellipse cx="240" cy="252" rx="70" ry="60" fill="#9c6a44"/>
+  <ellipse cx="240" cy="278" rx="42" ry="34" fill="#caa886"/>
+  <path d="M216 244 q12 -12 24 0" fill="none" stroke="#2b1f18" stroke-width="6" stroke-linecap="round"/>
+  <path d="M242 244 q12 -12 24 0" fill="none" stroke="#2b1f18" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="240" cy="268" rx="10" ry="7" fill="#2b1f18"/>
+  <text x="240" y="340" font-family="sans-serif" font-size="22" fill="#fff" text-anchor="middle">ずっといっしょ 🌅</text>
+</svg>

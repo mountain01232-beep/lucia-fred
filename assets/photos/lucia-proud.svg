@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bgPr" cx="50%" cy="38%" r="78%">
+      <stop offset="0%" stop-color="#fffdf2"/>
+      <stop offset="100%" stop-color="#ffe9a8"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" rx="36" fill="url(#bgPr)"/>
+  <!-- sparkles -->
+  <g fill="#ffd24d">
+    <path d="M64 80 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6 z"/>
+    <path d="M330 70 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 z"/>
+    <path d="M348 300 l5 11 11 5 -11 5 -5 11 -5 -11 -11 -5 11 -5 z"/>
+  </g>
+  <ellipse cx="118" cy="144" rx="44" ry="78" fill="#a9764f" transform="rotate(-22 118 144)"/>
+  <ellipse cx="282" cy="144" rx="44" ry="78" fill="#a9764f" transform="rotate(22 282 144)"/>
+  <ellipse cx="200" cy="210" rx="120" ry="112" fill="#c69465"/>
+  <ellipse cx="200" cy="252" rx="74" ry="62" fill="#f0dcc3"/>
+  <!-- shiny eyes -->
+  <circle cx="158" cy="196" r="17" fill="#3a2b22"/>
+  <circle cx="242" cy="196" r="17" fill="#3a2b22"/>
+  <circle cx="164" cy="190" r="6" fill="#fff"/>
+  <circle cx="248" cy="190" r="6" fill="#fff"/>
+  <circle cx="152" cy="200" r="3" fill="#fff"/>
+  <circle cx="236" cy="200" r="3" fill="#fff"/>
+  <circle cx="130" cy="232" r="15" fill="#ff9ec0" opacity="0.6"/>
+  <circle cx="270" cy="232" r="15" fill="#ff9ec0" opacity="0.6"/>
+  <ellipse cx="200" cy="238" rx="20" ry="14" fill="#3a2b22"/>
+  <!-- gentle smile -->
+  <path d="M200 252 V264 M200 264 q-24 18 -42 2 M200 264 q24 18 42 2" fill="none" stroke="#7a5c44" stroke-width="6" stroke-linecap="round"/>
+</svg>
