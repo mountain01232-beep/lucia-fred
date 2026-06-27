@@ -69,7 +69,7 @@ export const CONFIG = {
   //   Each item = one page. Edit freely.
   ending: {
     expression: "love",
-    photo: "assets/photos/lucia-message.jpg", // still image (first frame of the message video)
+    video: "assets/videos/lucia-message2.mp4", // very short (near-still) clip of Lucia for the message
     message: [
       "Happy Birthday, Fred! 🎂",
       "Thank you for always being with me\nand playing with me so much.",
