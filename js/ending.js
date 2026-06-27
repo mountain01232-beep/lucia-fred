@@ -1,8 +1,8 @@
 // =====================================================================
 //  エンディング：メッセージ → 思い出フォトギャラリー
 // =====================================================================
-import { CONFIG } from "./config.js?v=3";
-import { ACTIVITIES } from "./activities.js?v=3";
+import { CONFIG } from "./config.js?v=4";
+import { ACTIVITIES } from "./activities.js?v=4";
 
 let els = null;
 let onReplay = null;

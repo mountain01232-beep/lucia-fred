@@ -74,7 +74,7 @@ export const CONFIG = {
       "Happy Birthday, Fred! 🎂",
       "Thank you for always being with me\nand playing with me so much.",
       "When Fred smiles, Lucia is the happiest of all.",
-      "Let's stay together forever and ever.",
+      "Let's always be together, okay?",
       "I love you, Fred. 🐾💕",
     ],
     galleryHeading: "📸 Memories Album",
